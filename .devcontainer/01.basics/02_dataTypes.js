@@ -22,9 +22,6 @@ let age = 18
 let isLogIn = false
 let state;
 
-//objects
-// how to check datatype
-console.log(typeof "hitesh");
 
 
 //objects
