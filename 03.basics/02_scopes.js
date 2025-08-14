@@ -15,3 +15,30 @@ console.log("inner: ",a); // andar print kra to value a = 10 kyoki block scope
 
 // console.log(a);// bahar console print kra to value 300 kyoki global scope 
 // console.log(b);
+
+
+// function one(){
+//     const username = "hitesh"
+//     function two(){
+//         const website = "youtube"
+
+//         console.log(username);
+        
+        
+        
+//     }
+//     // console.log(website);//agar ye execute nhi hua to niche bhi nhi jayega so comment out 
+//     two()//child nested function m parents to execute kra sakta h but not vice-versa
+    
+// }
+//one()
+if (true) {
+    const username = "hitesh"
+    if (username === "hitesh") {
+        const website = " youtube"
+        console.log(username + website);
+    }
+    // console.log(website);
+}
+
+// console.log(username);
