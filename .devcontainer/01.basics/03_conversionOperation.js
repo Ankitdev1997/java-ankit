@@ -14,10 +14,10 @@
 // console.log(booleanIsisLoggedIn);
 //1 = true; 0 = false m convert hoga
 // "" = false ; "hitesh" = true
-// let someNumber = 33
-// let stringNumber = String(someNumber)
-// console.log(stringNumber);
-// console.log(typeof someNumber);
+let someNumber = 33
+let stringNumber = String(someNumber)
+console.log(stringNumber);
+console.log(typeof stringNumber);
 
 
 
@@ -46,8 +46,8 @@
 
 
 console.log(true);
-console.log(+true); //sahi tarika nhi h code must be readable
-console.log(+"");
+// console.log(+true); //sahi tarika nhi h code must be readable
+// console.log(+"");
 
 // let num1, num2, num3
 // num1 = num2 = num3 = 2 + 2
