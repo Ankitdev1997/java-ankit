@@ -4,16 +4,16 @@ const dc_heros = ["superman","flash","batman"]
 // marvel_heros.push(dc_heros)
 
 // console.log(marvel_heros);//ase merge nhi hote
-// console.log(marvel_heros[3]);//usko bhi ek string ki traha manega     
-//  const allHeros = marvel_heros.concat(dc_heros)//concat merge kar dega arrays 
-//  console.log(allHeros);
+// console.log(marvel_heros[2]);//usko bhi ek string ki traha manega     
+ const allHeros = marvel_heros.concat(dc_heros)//concat merge kar dega arrays 
+ console.log(allHeros);
 
 
 
 
- //new method
-//  const all_new_heros = [...marvel_heros, ...dc_heros]//spred operator
-//  console.log(all_new_heros);
+//  new method
+ const all_new_heros = [...marvel_heros, ...dc_heros]//spred operator
+ console.log(all_new_heros);
 
 
 
