@@ -18,13 +18,13 @@ if (3 != 2){ "executed"}          //yes statement true h to code execute hoga
 
 // <,>,<=(2<=2),==(check karne k liye),!=(notequalto), ===(strict check karne k liye datatype ko bhi check karta h),!==
   
-// const temprature = 41
-// if (temprature<50){
-//     console.log("less than 50");
-// } else {
-//     console.log("greater than 50")
-// }
-// console.log("always executed"); // bahar vala to execute hoga hi kyoki iska andar s koi matlab nhi h
+const temprature = 41
+if (temprature<50){
+    console.log("less than 50");
+} else {
+    console.log("greater than 50")
+}
+console.log("always executed"); // bahar vala to execute hoga hi kyoki iska andar s koi matlab nhi h
 
 
 
@@ -61,16 +61,16 @@ if (3 != 2){ "executed"}          //yes statement true h to code execute hoga
 // }
 
 
-const UserLoggedIn = true
-const debitCard = true
-const loggedInFromGoogle = false
-const loggedInFromEmail = true
-if (UserLoggedIn && debitCard && 2 == 2) {          //(&&)and statement dono condition check krega dono true aani chahiye
-    console.log("allow to buy courses");      // agar tino m se ek bhi galat hui to execute nhi hoga
+// const UserLoggedIn = true
+// const debitCard = true
+// const loggedInFromGoogle = false
+// const loggedInFromEmail = true
+// if (UserLoggedIn && debitCard && 2 == 2) {          //(&&)and statement dono condition check krega dono true aani chahiye
+//     console.log("allow to buy courses");      // agar tino m se ek bhi galat hui to execute nhi hoga
     
-}
-if (loggedInFromGoogle || loggedInFromEmail){         //(||)or statement check karne k liye ya to ye ya ye
-    console.log("user logged in");
+// }
+// if (loggedInFromGoogle || loggedInFromEmail){         //(||)or statement check karne k liye ya to ye ya ye
+//     console.log("user logged in");
     
-}
+// }
 
