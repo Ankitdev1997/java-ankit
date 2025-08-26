@@ -27,6 +27,6 @@
 
 let score = 11
 do {
-    console.log(`score is ${score}`);
+    console.log(`score is ${score}`)
     score++
 } while (score <= 10);  // ek 11 dikha dega kyoki pehle kam hota h bad m condition check krega
