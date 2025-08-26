@@ -19,7 +19,6 @@
 //         console.log("5 is best number");      //loop k andar if else vali condition
         
      
-        
 //     }
 //     console.log(element);
 // }
