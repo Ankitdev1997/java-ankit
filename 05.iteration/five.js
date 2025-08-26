@@ -13,7 +13,7 @@ const coding = ['js','ruby','java','python','cpp']
 //2nd method karne ka pehle function declare kar do
 
 function printMe(item){
-    console.log(item);
+    console.log(item)
     
 }
 // coding.forEach(printMe)
