@@ -26,7 +26,7 @@ map.set('uk', 'united kingdom')
 // console.log(map);    // map m unique value rehti h
 
 for (const key of map) {
-    console.log(key);
+    console.log(key)
     
 }      //key se sari value ayegi but
 
