@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chai aur code</title>
+</head>
+<body style="background-color: grey; color: white;" >
+    
+    
+</body>
+<script>
+    const newElement= document.createElement('div')
+    console.log(newElement);
+    newElement.className = "main"
+    newElement.id = Math.round(Math.random() * 10 + 1)
+newElement.setAttribute('title','generate coding')
+newElement.style.backgroundColor = "green"
+newElement.style.padding = "15px"
+// newElement.innerText = "chai aur code"
+const addText = document.createTextNode("chai aur code")
+newElement.appendChild(addText) // kya text add karna h vo h ye
+
+document.body.appendChild(newElement)
+
+</script>
+</html>
