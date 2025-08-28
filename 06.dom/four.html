@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom learning with chai aur code</title>
+</head>
+
+<body style="background-color: grey; color: white;">
+    <ul class="language">
+<li>javascript</li>
+
+    </ul>
+
+</body>
+<script>
+    function addLanguage(langname) {
+       const li = document.createElement("li") //refrence lane k liye
+        li.innerHTML = `${langname}`
+        document.querySelector(".language").appendChild(li) //show karane k liye
+
+    
+    }
+    addLanguage("python")
+    addLanguage("typescript")
+
+    //2nd method add karne ka by dsa
+    function addOptiLang(langname) {
+        const li = document.createElement("li");
+        li.appendChild(document.createTextNode(langname))
+
+        document.querySelector(".language").appendChild(li)
+    }
+    addOptiLang("golang")
+    //edit  kase karenge
+   const secondLang = document.querySelector("li:nth-child(2)")
+   const newLi = document.createElement("li")
+   newLi.textContent = "mojo"
+   secondLang.replaceWith(newLi)
+
+   //edit
+   const firstLang = document.querySelector("li:first-child")
+   firstLang.outerHTML = "<li>Typescript</li>"
+
+   //remove
+   const lastLang = document.querySelector("li:last-child")
+   lastLang.remove()
+
+</script>
+
+
+</html>
