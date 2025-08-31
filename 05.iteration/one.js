@@ -12,16 +12,16 @@
 // }
 
 
-// for (let i = 0; i < 10; i++) {      
-//     const element = i;
-//     if (element == 5 )
-//     {
-//         console.log("5 is best number");      //loop k andar if else vali condition
+for (let i = 0; i < 10; i++) {      
+    const element = i;
+    if (element == 5 )
+    {
+        console.log("5 is best number");      //loop k andar if else vali condition
         
      
-//     }
-//     console.log(element);
-// }
+    }
+    console.log(element);
+}
 
 // for (let i = 1; i <= 10; i++) {                         //loop k andar loop
 
@@ -47,24 +47,25 @@
 
 //break and continue
 
-// for (let index = 1; index <= 20; index++) {
-//     if (index ==5) {
-//         console.log(`detected 5 `);
-//         break  // break lga dega vhi aage nhi jayega
-        
-        
-//     }
-// }
-
-
-
 for (let index = 1; index <= 20; index++) {
     if (index ==5) {
         console.log(`detected 5 `);
-        continue        // ek condition k liye maaf kr dega phir continue but ye print nhi hoga
+        break  // break lga dega vhi aage nhi jayega
         
         
     }
     console.log(`value of index is ${index}`)
-    
 }
+
+
+
+// for (let index = 1; index <= 20; index++) {
+//     if (index ==5) {
+//         console.log(`detected 5 `);
+//         continue        // ek condition k liye maaf kr dega phir continue but ye print nhi hoga
+        
+        
+//     }
+//     console.log(`value of index is ${index}`)
+    
+// }
