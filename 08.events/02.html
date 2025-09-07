@@ -13,11 +13,13 @@
     const sayHitesh = function(){
         console.log("Hitesh");
     }
+    setTimeout(sayHitesh)  // refrence call krna
     const changeText = function(){
         document.querySelector('h1').innerHTML = "best JS series"
     }
+    setTimeout(changeText,5000)
 
-    const changeMe = setTimeout(changeText, 2000)
+    // const changeMe = setTimeout(changeText, 2000)
 
     document.querySelector('#stop').addEventListener('click', function(){
         clearTimeout(changeMe)
