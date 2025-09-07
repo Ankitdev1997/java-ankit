@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+
 <body>
     <h1>Chai aur Javascript</h1>
     <button id="start">Start</button>
@@ -12,16 +14,53 @@
 </body>
 <script>
     //set timeout m ek fixed time k bad bar bar kaam hota rahega
-// setInterval(function(){       //basic syntax
-//     console.log("hitesh")
-// },1000)
+    // setInterval(function(){       //basic syntax
+    //     console.log("hitesh")
+    // },1000)
 
-    const sayDate = function(str){   // parameter bhi de skte h (string) jo ki (hi) h
-        console.log(str, Date.now());
+    //     const sayDate = function(str){   // parameter bhi de skte h (string) jo ki (hi) h
+    //         console.log(str, Date.now());
+    //     }
+    // // setInterval(sayDate, 1000, "hi")
+    //     const intervalId = setInterval(sayDate, 1000, "hi")
+
+    //     clearInterval(intervalId)
+    const randomColor = function () {
+        const hex = '0123456789ABCDEF'
+        let color = '#'
+        for (let i = 0; i < 6; i++) {
+            color += hex[Math.floor(Math.random() * 16)]
+
+
+        }
+        return color
     }
-// setInterval(sayDate, 1000, "hi")
-    const intervalId = setInterval(sayDate, 1000, "hi")
 
-    clearInterval(intervalId)
+    // console.log(Math.floor(Math.random() * 16 ));
+    // console.log(randomColor());
+
+    let intervalId;
+    const startChangingColor = function(){
+         intervalId = setInterval(changeBgColor,1000);
+
+        function changeBgColor(){
+             document.body.style.backgroundColor = randomColor();
+        }
+       
+    };
+    const stopChangingColor = function () {
+clearInterval(intervalId);
+intervalId = null;
+    };
+
+
+    document.querySelector('#start').addEventListener('click', startChangingColor);
+
+     document.querySelector('#stop').addEventListener('click', stopChangingColor);
+
+
+
+
 </script>
+
 </html>
