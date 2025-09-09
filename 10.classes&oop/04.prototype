@@ -1,7 +1,7 @@
 // let myName = "hitesh     "
 // let mychannel = "chai     "
 
-// console.log(myName.trueLength);
+// console.log(myName.trueLength);   // ye problem solve karni h
 
 
 let myHeros = ["thor", "spiderman"]
