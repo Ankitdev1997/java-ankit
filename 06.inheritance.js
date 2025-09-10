@@ -27,4 +27,4 @@ const masalaChai = new User("masalaChai")
 
 masalaChai.logMe()
 
-console.log(chai instanceof User);
+console.log(chai instanceof User);   //instance keyword s pta chalta h ki ye issse related h kya
