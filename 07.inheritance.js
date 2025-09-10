@@ -8,7 +8,7 @@ class User {
     }
 }
 
-class Teacher extends User{
+class Teacher extends User{    //extends use kiya user ka part bnane k liye
     constructor(username, email, password){
         super(username)  //super keyword ka use kiya upar vale ko isme dikhane k liye
         this.email = email
