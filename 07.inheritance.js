@@ -28,3 +28,15 @@ const masalaChai = new User("masalaChai")
 masalaChai.logMe()
 
 console.log(chai instanceof User);   //instance keyword s pta chalta h ki ye issse related h kya
+
+
+class car {
+    constructor(name,year){
+        this.name = name
+        this.year = year
+
+    }
+}
+
+const myCar1 = new car(Ford, 2014)
+console.log(myCar1.name);
