@@ -10,7 +10,7 @@ class User {
 
 class Teacher extends User{
     constructor(username, email, password){
-        super(username)
+        super(username)  //super keyword ka use kiya upar vale ko isme dikhane k liye
         this.email = email
         this.password = password
     }
